@@ -20,6 +20,7 @@ public class FormOrder {
     private final By inputAddres = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
     private static String addres = "Москва";
 
+
     private final By inputSubwayStation = By.xpath(".//input[@placeholder='* Станция метро']");
     private static String subwayStation = "Черкизовская";
     private final By choiceSubwayStation = By.xpath(".//div[text()='Черкизовская']");

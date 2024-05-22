@@ -26,6 +26,7 @@ public class Questions {
     }
 
 
+
     public Questions scoll(By question){
         WebElement element = webDriver.findElement(question);
         ((JavascriptExecutor)webDriver).executeScript("arguments[0].scrollIntoView();", element);
