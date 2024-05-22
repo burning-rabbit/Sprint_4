@@ -47,7 +47,6 @@ public class ListQuestions {
     }
 
 
-
     @Before
     public void setup() {
         webDriver = new ChromeDriver();
