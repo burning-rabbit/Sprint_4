@@ -23,7 +23,6 @@ public class OrderScooter {
     public void order() {
         FormOrder formOrder = new FormOrder(webDriver);
 
-
         formOrder.openUrl()
                 .clickCookie()
                 .clickOrder()
