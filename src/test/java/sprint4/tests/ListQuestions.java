@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import sprint4.units.Questions;
+import sprint4.units.pageObject.Questions;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,7 +16,9 @@ import java.util.concurrent.TimeUnit;
 @RunWith(Parameterized.class)
 public class ListQuestions {
     private WebDriver webDriver;
+    //Вопрос на странице
     private static By question;
+    //Выпадающий ответ
     private static By answer;
 
     public ListQuestions(By question, By answer) {
@@ -45,6 +47,7 @@ public class ListQuestions {
                 By.xpath(".//p[text()='Да, обязательно. Всем самокатов! И Москве, и Московской области.']")}
         };
     }
+
 
 
     @Before
